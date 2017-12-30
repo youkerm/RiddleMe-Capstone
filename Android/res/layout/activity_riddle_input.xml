@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/submit_input_riddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp"
+            android:text="Submit Riddle"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Answer"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/input_riddle_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:text="null"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_riddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="81dp"
+            android:ems="10"
+            android:hint="Please enter your riddle here"
+            android:inputType="textCapSentences|textAutoCorrect|textShortMessage"
+            android:maxLength="128"
+            android:singleLine="false"
+            android:textAlignment="viewStart" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

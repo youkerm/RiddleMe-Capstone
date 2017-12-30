@@ -1,0 +1,21 @@
+bridges
+water fountain
+statues
+projector
+laundry machine
+tv
+desk
+swing
+scoreboard
+door
+grill
+vending machine
+podium
+computer
+trash can
+basketball hoop
+signs
+street lights
+chair
+stairs
+goal
